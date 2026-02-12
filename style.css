@@ -1,0 +1,36 @@
+style.css
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f;
+  text-align: center;
+  padding: 20px;
+}
+.container,
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: #d32f2f;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #b71c1c;
+}
+#donor-form, #needer-form {
+  display: none;
+}
+tips-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background: #fff3e0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
